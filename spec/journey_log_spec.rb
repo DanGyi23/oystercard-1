@@ -1,7 +1,6 @@
 require 'journey_log'
 
 describe JourneyLog do
-  let(:journey) {Journey.new}
   let(:entry_station) {double :entry_station}
   let(:exit_station) {double :exit_station}
   let(:zone) {double :zone}
